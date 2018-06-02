@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:id="@+id/connectionList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/notifacationBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connectionTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/empty_tall_divider"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/chat0"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/start_chat_box"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="8dp"
+                android:text="@string/home_text_empty_chat"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/chat1"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/start_chat_box"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="8dp"
+                android:text="@string/home_text_empty_chat"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/chat2"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/start_chat_box"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="8dp"
+                android:text="@string/home_text_empty_chat"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/chat3"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/start_chat_box"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="8dp"
+                android:text="@string/home_text_empty_chat"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/chat4"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/start_chat_box"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="8dp"
+                android:text="@string/home_text_empty_chat"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/tempWeather"
+        android:layout_width="86dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_app_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/midDivider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/connectionTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeWelcome" />
+
+    <TextView
+        android:id="@+id/connectionTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="serif-monospace"
+        android:text="@string/home_text_recent_chats"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/connectionList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/midDivider"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <TextView
+        android:id="@+id/homeWelcome"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="serif-monospace"
+        android:inputType="none"
+        android:text="Welcome, [username]!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/midDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeFragmentSearchButton"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:id="@+id/notifacationBar"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="2dp"
+        android:background="?attr/colorPrimary"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:text="@string/home_text_notifacationBar"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connectionList" />
+
+    <Button
+        android:id="@+id/homeFragmentSearchButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/home_search_button"
+        app:layout_constraintEnd_toStartOf="@+id/tempWeather"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/connectionsSearchSpinner"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/midDivider"
+        app:layout_constraintBottom_toTopOf="@+id/notifacationBar" />
+
+
+
+</android.support.constraint.ConstraintLayout>

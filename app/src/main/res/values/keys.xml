@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="keys_shared_prefs">edu.uw.tcss450.messengerapp.PREFS</string>
+
+    <string name="keys_prefs_username">username</string>
+    <string name="keys_prefs_stay_logged_in">loggedIn</string>
+
+    <string name="keys_fragment_login">loginFragmentTag</string>
+    <string name="keys_fragment_register">registerFragmentTag</string>
+    <string name="keys_fragment_verify">verifyFragmentTag</string>
+    <string name="keys_fragment_connections">connectionsFragmentTag</string>
+    <string name="keys_fragment_searchConnections">searchConnectionsTag</string>
+    <string name="keys_fragment_resetPassword">resetPasswordFragmentTag</string>
+
+    <string name="keys_prefs_time_stamp">ts key</string>
+
+    /**Keys for returned json keywords**/
+    <string name="keys_json_username">username</string>
+    <string name="keys_json_password">password</string>
+    <string name="keys_json_email">email</string>
+    <string name="keys_json_firstname">first</string>
+    <string name="keys_json_lastname">last</string>
+    <string name="keys_json_message">message</string>
+    <string name="keys_json_messages">messages</string>
+    <string name="keys_json_success">success</string>
+    <string name="keys_json_chats">chats</string>
+    <string name="keys_json_chatid">chatid</string>
+    <string name="keys_json_after">after</string>
+    <string name="keys_json_request_memberid">memberid_a</string>
+    <string name="keys_json_requests">requests</string>
+    <string name="keys_json_results">results</string>
+    <string name="keys_json_success_value_true">true</string>
+    <string name="keys_json_success_value_false">false</string>
+    <string name="keys_json_connections_a">connections_a</string>
+    <string name="keys_json_connections_b">connections_b</string>
+    <string name="keys_json_chat_id">chatId</string>
+    <string name="keys_json_chatname">name</string>
+
+    <string name="keys_json_requests_firstname">firstname</string>
+    <string name="keys_json_requests_lastname">lastname</string>
+
+    /**Keys for Notifacations**/
+    <string name="keys_sp_on">true</string>
+    <string name="keys_extra_results">results</string>
+    <string name="keys_is_foreground">FOREGROUND</string>
+    <string name="keys_chat_notification">ChatNotification</string>
+    <string name="keys_connection_notification">ConnectionNotification</string>
+
+
+</resources>

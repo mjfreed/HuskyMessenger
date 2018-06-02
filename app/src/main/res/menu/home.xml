@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/colorMenu"
+        android:orderInCategory="100"
+        android:title="@string/action_colorScheme"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/color_rugged"
+        android:orderInCategory="100"
+        android:title="@string/action_color_rugged" />
+    <item
+        android:id="@+id/color_modern"
+        android:orderInCategory="100"
+        android:title="@string/action_color_modern" />
+    <item
+        android:id="@+id/color_summer"
+        android:orderInCategory="100"
+        android:title="@string/action_color_summer"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/color_UW"
+        android:orderInCategory="100"
+        android:title="@string/action_color_UW"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ep_base_url">group3-messenger-backend.herokuapp.com</string>
+
+    /**General endpoints**/
+    <string name="ep_login">login</string>
+    <string name="ep_register">register</string>
+    <string name="ep_verify">verify</string>
+    <string name="ep_send_message">sendMessages</string>
+    <string name="ep_get_message">getMessages</string>
+    <string name="ep_get_chats">getAllChats</string>
+    <string name="ep_get_requests">getRequests</string>
+    <string name="ep_post_get_requests2">getRequests2</string>
+    <string name="ep_get_pending_requests">getPendingRequests</string>
+    <string name="ep_get_contacts">getContacts</string>
+    <string name="ep_get_credentials_id">getCredentialsFromId</string>
+    <string name="ep_verify_contact_request">verifyContactRequest</string>
+    <string name="ep_decline_contact_request">declineContactRequest</string>
+    <string name="ep_request_contact">requestContact</string>
+
+    /**Messages Endpoints**/
+    <string name="ep_get_all_chats">getAllChats</string>
+    <string name="ep_post_add_user_to_chat">addUserToChat</string>
+    <string name="ep_post_add_new_chat">addNewChat</string>
+    <string name="ep_post_get_messages">getMessages3</string>
+
+    /**credentials endpoints**/
+    <string name="ep_get_credentials_username">getCredentialsFromUsername</string>
+    <string name="ep_get_credentials_first">getCredentialsFromFirst</string>
+    <string name="ep_get_credentials_last">getCredentialsFromLast</string>
+    <string name="ep_get_credentials_email">getCredentialsFromEmail</string>
+
+
+    /**Temporary ep from Lab for testing Notifacations**/
+    <string name="ep_my_api_key">BF2A6E6EEBD34563A52B</string>
+    <string name="ep_api_key_arg">apikey</string>
+
+    <string name="ep_phish_net_url">api.phish.net</string>
+    <string name="ep_phish_version">v3</string>
+    <string name="ep_phish_setlist">setlist</string>
+    <string name="ep_phish_random">random</string>
+    
+    /**Reset Password Endpoints**/
+    <string name="ep_verify_reset">verifyReset</string>
+    <string name="ep_start_reset">startReset</string>
+    <string name="ep_password_reset">passwordReset</string>
+
+</resources>

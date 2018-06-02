@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    /**Brown-Blue**/
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#5D40379F</color>
+    <color name="colorAccent">#448AFF</color>
+
+    /**Brown-Blue**/
+    <color name="colorPrimary1">#795548</color>
+    <color name="colorPrimaryDark1">#5D40379F</color>
+    483D8B
+    <color name="colorAccent1">#448AFF</color>
+
+    /**Grey-Pink Modern**/
+    <color name="colorPrimary2">#607d8b</color>
+    <color name="colorPrimaryDark2">#455a64</color>
+    <color name="colorAccent2">#FF4081</color>
+
+    /**Cyan-Green Light Summer**/
+    <color name="colorPrimary3">#00BCD4</color>
+    <color name="colorPrimaryDark3">#0097A7</color>
+    <color name="colorAccent3">#8BC34A</color>
+
+    /**UW**/
+    <color name="colorPrimary4">#4B2E83</color>
+    <color name="colorPrimaryDark4">#512DA8</color>
+    <color name="colorAccent4">#B7A57A</color>
+
+    /**Default**/
+    <color name="colorPrimary5">#3F51B5</color>
+    <color name="colorPrimaryDark5">#303F9F</color>
+    <color name="colorAccent5">#FF4081</color>
+
+
+
+</resources>

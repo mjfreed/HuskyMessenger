@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Husky Messenger</string>
+
+    /**Strings for general purpose within app**/
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Group 3 Messenger</string>
+    <string name="nav_header_subtitle">TCSS 450</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_colorScheme">Select an app style:</string>
+    <string name="action_color_rugged">Rugged Outdoorsman</string>
+    <string name="action_color_modern">Modern Twist</string>
+    <string name="action_color_summer">Summer Breeze</string>
+    <string name="action_color_UW">Husky Style</string>
+
+    /**Strings for home activity Drawer**/
+    <string name="drawer_login">LOGIN</string>
+    <string name="drawer_register">REGISTER</string>
+    <string name="drawer_home">HOME</string>
+    <string name="temp_chat">CHAT</string>
+    <string name="temp_chat_manager">CHAT MANAGER</string>
+    <string name="temp_connections">CONNECTIONS</string>
+    <string name="temp_weather">WEATHER</string>
+
+    /**Strings for login fragment UI**/
+    <string name="login_text">Log into Messenger</string>
+    <string name="login_button_login">Login</string>
+    <string name="login_button_register">Register</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_checkbox_text">Stay Logged In</string>
+    <string name="login_forgot_password_button">Forgot Password?</string>
+
+    /**Strings for register fragment UI**/
+    <string name="register_button_submit">Submit</string>
+    <string name="register_text_view">Register For An Account</string>
+    <string name="register_fname_hint">First Name</string>
+    <string name="register_lname_hint">Last Name</string>
+    <string name="register_nickname_hint">Username</string>
+    <string name="register_confirmpass_hint">Confirm Password</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_pass_instructions">Password must contain at least five characters,
+        one uppercase letter and one digit</string>
+
+    /**Strings for home fragment UI**/
+    <string name="home_searchbar">Search Connections</string>
+    <string name="home_text_recent_chats">Recent Chats:</string>
+    <string name="home_text_empty_chat">Click to create a chat.</string>
+    <string name="home_text_notifacationBar">Waiting for new notifications...</string>
+    <string name="home_search_button">Search for someone!</string>
+
+    /**Strings for Verify Fragment UI**/
+    <string name="verify_code_hint">Enter Code</string>
+    <string name="verify_text_view">Verify Email With Code</string>
+    <string name="verify_button">Verify</string>
+    <string name="verify_dowhat_button">Do What?</string>
+    <string name="verify_igetit_button">I Get It</string>
+    <string name="verify_dowhat_text">We sent you a verification code to the email that you provided.
+        Please enter that code in the box above.</string>
+
+    /**Strings for ResetPassword Fragment UI**/
+    <string name="reset_enter_new_text">Enter and Confirm New Password</string>
+    <string name="reset_new_password_hint">Enter new password</string>
+    <string name="reset_confirm_new_password_hint">Confirm new Password</string>
+    <string name="reset_password_button">I\'m done</string>
+
+    /**Chat Activity UI Strings**/
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="menu_add_user">Add User to Chat</string>
+    <string name="menu_remove_user">Remove User</string>
+
+    /**Strings for Chat Fragment UI**/
+    <string name="chat_textbar_hint">Write a message</string>
+    <string name="chat_messages">Messages</string>
+
+    /**Strings for Connections Fragment UI**/
+    <string name="connections_request_text_view">Connection Requests</string>
+    <string name="connections_pending_request_text_view">Pending Requests</string>
+    <string name="connections_search_hint">Search for someone!</string>
+    <string name="connections_searchBy_text">Search by:</string>
+    <string name="connections_verified_header_text">Connections</string>
+    <string name="connections_verified_generic_text_view">verifiedTextView</string>
+    <string name="connections_requests_resolve_button">Resolve Requests</string>
+    <string name="connections_accept_request_dialog_button">Accept</string>
+    <string name="connections_decline_request_diaglog_button">Decline</string>
+    <string name="connections_start_chat_dialog_button">Start Chat</string>
+    <string name="connections_start_groupchat_dialog_button">Start Group Chat</string>
+    <string name="connections_delete_connection">Delete Connection</string>
+
+    <string-array name="connections_search_filter">
+        <item>Username</item>
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Email</item>
+    </string-array>
+
+    /**Strings for SearchConnections Fragment UI**/
+    <string name="searchConnections_header_text_view">Search Results</string>
+    <string name="searchConnections_current_connections_text">Current Connections</string>
+    <string name="searchConnections_requests_text">They\'ve Requested to Connect!</string>
+    <string name="searchConnections_pending_text">You\'re Waiting On Them...</string>
+    <string name="searchConnections_remove_pending">Remove</string>
+    <string name="searchConnections_nevermind">Nevermind</string>
+    <string name="searchConnections_Yes">Yes</string>
+    <string name="searchConnections_Nah">Mmm... Nah</string>
+
+    /**Strings for Weather Fragment UI**/
+    <string name="weather_button_start">Start Service</string>
+    <string name="weather_button_end">End Service</string>
+    <string name="weather_button_result">New Results</string>
+    <string name="weather_button_fetching">Fetching</string>
+
+    /**Strings for Start Chat page**/
+    <string name="start_text_usernames">Who would you like to chat with?</string>
+    <string name="start_text_chat_name">Enter Chat Room Name...</string>
+    <string name="start_button_create">Start Chat!</string>
+    <string name="title_activity_my_locations">MyLocationsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

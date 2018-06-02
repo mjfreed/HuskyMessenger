@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item android:title="Navigations">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="Home"
+                />
+            <item
+                android:id="@+id/nav_chatmanager"
+                android:icon="@drawable/ic_chat"
+                app:actionViewClass="android.widget.TextView"
+                android:title="Chat" />
+            <item
+                android:id="@+id/nav_connections"
+                android:icon="@drawable/ic_connections"
+                app:actionViewClass="android.widget.TextView"
+                android:title="Connections"
+                />
+            <item
+                android:id="@+id/nav_weather"
+                android:icon="@drawable/ic_weather"
+                android:title="Weather"
+                />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout"
+                />
+
+        </menu>
+    </item>
+
+
+</menu>
